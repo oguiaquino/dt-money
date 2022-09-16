@@ -15,6 +15,22 @@
       "category": "Alimentação",
       "price": 40,
       "createdAt": "2022-09-02T20:22:20.007Z"
+    },
+    {
+      "description": "Pizza",
+      "price": 40,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2022-09-05T13:54:35.052Z",
+      "id": 3
+    },
+    {
+      "description": "Salario",
+      "price": 10000,
+      "category": "Salario",
+      "type": "income",
+      "createdAt": "2022-09-07T03:09:02.865Z",
+      "id": 4
     }
   ]
 }
