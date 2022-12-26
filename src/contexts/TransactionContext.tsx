@@ -46,7 +46,7 @@ export function TransactionsProvider({ children }: TransactionProviderProps) {
   const createTransaction = useCallback(
     async (data: CreateTransactionInput) => {
       const { description, price, category, type } = data
-
+      console.log(api)
       const response = await api.post('transactions', {
         description,
         price,
@@ -54,7 +54,7 @@ export function TransactionsProvider({ children }: TransactionProviderProps) {
         type,
         createdAt: new Date(),
       })
-
+      console.log(response)
       setTransactions((state) => [response.data, ...state])
     },
     [],
