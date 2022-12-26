@@ -30,6 +30,8 @@ O projeto DT Money é uma ferramenta de gerenciamento financeiro pessoal que per
 
 Para armazenar e fornecer os dados de contas de entrada e saída, o DT Money utiliza a biblioteca de Fake API JSON Server. Com essa ferramenta, o usuário pode ter uma visão geral de suas finanças pessoais e tomar decisões mais informadas sobre seus gastos e economias.
 
+&#xa0;
+
 ## Funcionalidades
 - Cadastro de contas de entrada e saída
 - Visualização dos totais das contas em cards
